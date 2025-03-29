@@ -1,0 +1,581 @@
+word,response,cost,win
+Bird,Feather,1,1  
+Pillow,Feather,1,1  
+Quill,Feather,1,1  
+Flight,Feather,1,1  
+Lightness,Feather,1,1  
+Scissors,Feather,1,0  
+Fire,Feather,1,0  
+Wind,Feather,1,0  
+Gravity,Feather,1,0  
+Glue,Feather,1,0
+Fire,Coal,1,1  
+Energy,Coal,1,1  
+Blacksmith,Coal,1,1  
+Pollution,Coal,1,1  
+Fossil,Coal,1,1  
+Diamond,Coal,1,0  
+Water,Coal,1,0  
+Renewable energy,Coal,1,0  
+Steam engine,Coal,1,0  
+Ash,Coal,1,0
+River,Pebble,1,1  
+Skipping,Pebble,1,1  
+Erosion,Pebble,1,1  
+Garden,Pebble,1,1  
+Footpath,Pebble,1,1  
+Rock,Pebble,1,0  
+Hammer,Pebble,1,0  
+Concrete,Pebble,1,0  
+Landslide,Pebble,1,0  
+Time,Pebble,1,0
+Photosynthesis,Leaf,2,1  
+Oxygen,Leaf,2,1  
+Compost,Leaf,2,1  
+Autumn,Leaf,2,1  
+Nest,Leaf,2,1  
+Tree,Leaf,2,0  
+Fire,Leaf,2,0  
+Scissors,Leaf,2,0  
+Herbivore,Leaf,2,0  
+Winter,Leaf,2,0
+Book,Paper,2,1  
+Origami,Paper,2,1  
+Document,Paper,2,1  
+Recycling,Paper,2,1  
+Art,Paper,2,1  
+Scissors,Paper,2,0  
+Fire,Paper,2,0  
+Water,Paper,2,0  
+Shredder,Paper,2,0  
+Lawsuit,Paper,2,0
+Pebble,Rock,2,1  
+Mountain,Rock,2,1  
+Geology,Rock,2,1  
+Sculpture,Rock,2,1  
+Foundation,Rock,2,1  
+Hammer,Rock,2,0  
+Erosion,Rock,2,0  
+Earthquake,Rock,2,0  
+Lava,Rock,2,0  
+Time,Rock,2,0
+Fire,Water,3,1  
+Thirst,Water,3,1  
+River,Water,3,1  
+Life,Water,3,1  
+Erosion,Water,3,1  
+Ice,Water,3,0  
+Pollution,Water,3,0  
+Desert,Water,3,0  
+Evaporation,Water,3,0  
+Drought,Water,3,0
+Nest,Twig,3,1  
+Kindling,Twig,3,1  
+Basket,Twig,3,1  
+Growth,Twig,3,1  
+Fragility,Twig,3,1  
+Fire,Twig,3,0  
+Axe,Twig,3,0  
+Storm,Twig,3,0  
+Time,Twig,3,0  
+Decay,Twig,3,0
+Shield,Sword,4,1  
+Armor,Sword,4,1  
+Battle,Sword,4,1  
+Knight,Sword,4,1  
+Honor,Sword,4,1  
+Rust,Sword,4,0  
+Gun,Sword,4,0  
+Time,Sword,4,0  
+Peace,Sword,4,0  
+Forging,Sword,4,0
+Arrow,Shield,4,1  
+Defense,Shield,4,1  
+Protection,Shield,4,1  
+Wall,Shield,4,1  
+Battle,Shield,4,1  
+Rust,Shield,4,0  
+Sword,Shield,4,0  
+Time,Shield,4,0  
+Neglect,Shield,4,0  
+Aging,Shield,4,0
+Sword,Gun,5,1  
+Bullet,Gun,5,1  
+War,Gun,5,1  
+Fear,Gun,5,1  
+Control,Gun,5,1  
+Disarmament,Gun,5,0  
+Peace,Gun,5,0  
+Law,Gun,5,0  
+Time,Gun,5,0  
+Technology,Gun,5,0
+Wood,Flame,5,1  
+Light,Flame,5,1  
+Heat,Flame,5,1  
+Candle,Flame,5,1  
+Energy,Flame,5,1  
+Water,Flame,5,0  
+Wind,Flame,5,0  
+Extinguisher,Flame,5,0  
+Time,Flame,5,0  
+Rain,Flame,5,0
+Knot,Rope,5,1  
+Climb,Rope,5,1  
+Tie,Rope,5,1  
+Strength,Rope,5,1  
+Tool,Rope,5,1  
+Scissors,Rope,5,0  
+Fire,Rope,5,0  
+Time,Rope,5,0  
+Fraying,Rope,5,0  
+Weight,Rope,5,0
+Health,Disease,6,1  
+Weakness,Disease,6,1  
+Infection,Disease,6,1  
+Pain,Disease,6,1  
+Fear,Disease,6,1  
+Cure,Disease,6,0  
+Medicine,Disease,6,0  
+Immunity,Disease,6,0  
+Hygiene,Disease,6,0  
+Prevention,Disease,6,0
+Disease,Cure,6,1  
+Illness,Cure,6,1  
+Recovery,Cure,6,1  
+Hope,Cure,6,1  
+Science,Cure,6,1  
+Time,Cure,6,0  
+Mutation,Cure,6,0  
+Ignorance,Cure,6,0  
+Poverty,Cure,6,0  
+Resistance,Cure,6,0
+Infection,Bacteria,6,1  
+Decay,Bacteria,6,1  
+Fermentation,Bacteria,6,1  
+Microbiome,Bacteria,6,1  
+Life,Bacteria,6,1  
+Antibiotic,Bacteria,6,0  
+Sterilization,Bacteria,6,0  
+Immunity,Bacteria,6,0  
+Hygiene,Bacteria,6,0  
+Medicine,Bacteria,6,0
+Light,Shadow,7,1  
+Darkness,Shadow,7,1  
+Mystery,Shadow,7,1  
+Fear,Shadow,7,1  
+Silhouette,Shadow,7,1  
+Sun,Shadow,7,0  
+Lamp,Shadow,7,0  
+Truth,Shadow,7,0  
+Clarity,Shadow,7,0  
+Dawn,Shadow,7,0
+Darkness,Light,7,1  
+Shadow,Light,7,1  
+Vision,Light,7,1  
+Energy,Light,7,1  
+Hope,Light,7,1  
+Black hole,Light,7,0  
+Prism,Light,7,0  
+Absorption,Light,7,0  
+Time,Light,7,0  
+Extinction,Light,7,0
+Cell,Virus,7,1  
+Infection,Virus,7,1  
+Mutation,Virus,7,1  
+Pandemic,Virus,7,1  
+Fear,Virus,7,1  
+Vaccine,Virus,7,0  
+Antiviral,Virus,7,0  
+Immunity,Virus,7,0  
+Hygiene,Virus,7,0  
+Quarantine,Virus,7,0
+Silence,Sound,8,1  
+Music,Sound,8,1  
+Echo,Sound,8,1  
+Communication,Sound,8,1  
+Vibration,Sound,8,1  
+Vacuum,Sound,8,0  
+Mute,Sound,8,0  
+Deafness,Sound,8,0  
+Distance,Sound,8,0  
+Noise-cancelling,Sound,8,0
+Life,Time,8,1  
+Decay,Time,8,1  
+Aging,Time,8,1  
+History,Time,8,1  
+Patience,Time,8,1  
+Immortality,Time,8,0  
+Black hole,Time,8,0  
+Relativity,Time,8,0  
+Entropy,Time,8,0  
+Timelessness,Time,8,0
+Choice,Fate,8,1  
+Destiny,Fate,8,1  
+Fortune,Fate,8,1  
+Luck,Fate,8,1  
+Doom,Fate,8,1  
+Free will,Fate,8,0  
+Chaos,Fate,8,0  
+Randomness,Fate,8,0  
+Intervention,Fate,8,0  
+Change,Fate,8,0
+Building,Earthquake,9,1  
+Stability,Earthquake,9,1  
+Land,Earthquake,9,1  
+Fear,Earthquake,9,1  
+Destruction,Earthquake,9,1  
+Foundation,Earthquake,9,0  
+Preparation,Earthquake,9,0  
+Technology,Earthquake,9,0  
+Prediction,Earthquake,9,0  
+Resilience,Earthquake,9,0
+Calm,Storm,9,1  
+Rain,Storm,9,1  
+Wind,Storm,9,1  
+Chaos,Storm,9,1  
+Destruction,Storm,9,1  
+Shelter,Storm,9,0  
+Forecast,Storm,9,0  
+Preparation,Storm,9,0  
+Eye,Storm,9,0  
+Peace,Storm,9,0
+Virus,Vaccine,9,1  
+Disease,Vaccine,9,1  
+Immunity,Vaccine,9,1  
+Prevention,Vaccine,9,1  
+Health,Vaccine,9,1  
+Mutation,Vaccine,9,0  
+Ignorance,Vaccine,9,0  
+Expiration,Vaccine,9,0  
+Delay,Vaccine,9,0  
+Poverty,Vaccine,9,0
+Fallacy,Logic,10,1  
+Reason,Logic,10,1  
+Argument,Logic,10,1  
+Truth,Logic,10,1  
+Science,Logic,10,1  
+Emotion,Logic,10,0  
+Chaos,Logic,10,0  
+Bias,Logic,10,0  
+Illogic,Logic,10,0  
+Paradox,Logic,10,0
+Flight,Gravity,10,1  
+Fall,Gravity,10,1  
+Orbit,Gravity,10,1  
+Weight,Gravity,10,1  
+Black hole,Gravity,10,1  
+Anti-gravity,Gravity,10,0  
+Space-time,Gravity,10,0  
+Neutron star,Gravity,10,0  
+Quantum,Gravity,10,0  
+Dark energy,Gravity,10,0
+Labor,Robots,10,1  
+Automation,Robots,10,1  
+Precision,Robots,10,1  
+Future,Robots,10,1  
+Efficiency,Robots,10,1  
+Humanity,Robots,10,0  
+Error,Robots,10,0  
+Obsolescence,Robots,10,0  
+Hacking,Robots,10,0  
+Ethics,Robots,10,0 
+Rock,Stone,11,1  
+Monument,Stone,11,1  
+Tool,Stone,11,1  
+Hardness,Stone,11,1  
+Permanence,Stone,11,1  
+Erosion,Stone,11,0  
+Time,Stone,11,0  
+Sculptor,Stone,11,0  
+Weathering,Stone,11,0  
+Lava,Stone,11,0
+Sound,Echo,11,1  
+Repetition,Echo,11,1  
+Memory,Echo,11,1  
+Canyon,Echo,11,1  
+Distance,Echo,11,1  
+Silence,Echo,11,0  
+Absorption,Echo,11,0  
+Wall,Echo,11,0  
+Time,Echo,11,0  
+Dampening,Echo,11,0
+Lightning,Thunder,12,1  
+Storm,Thunder,12,1  
+Sound,Thunder,12,1  
+Fear,Thunder,12,1  
+Power,Thunder,12,1  
+Silence,Thunder,12,0  
+Distance,Thunder,12,0  
+Barrier,Thunder,12,0  
+Time,Thunder,12,0  
+Insulation,Thunder,12,0
+Action,Karma,12,1  
+Consequence,Karma,12,1  
+Justice,Karma,12,1  
+Balance,Karma,12,1  
+Fate,Karma,12,1  
+Free will,Karma,12,0  
+Chaos,Karma,12,0  
+Randomness,Karma,12,0  
+Atheism,Karma,12,0  
+Forgiveness,Karma,12,0
+Sail,Wind,13,1  
+Storm,Wind,13,1  
+Erosion,Wind,13,1  
+Flight,Wind,13,1  
+Freedom,Wind,13,1  
+Mountain,Wind,13,0  
+Barrier,Wind,13,0  
+Calm,Wind,13,0  
+Stillness,Wind,13,0  
+Time,Wind,13,0
+Water,Ice,13,1  
+Cold,Ice,13,1  
+Winter,Ice,13,1  
+Slipperiness,Ice,13,1  
+Preservation,Ice,13,1  
+Heat,Ice,13,0  
+Fire,Ice,13,0  
+Melting,Ice,13,0  
+Sun,Ice,13,0  
+Friction,Ice,13,0
+Desert,Sandstorm,13,1  
+Erosion,Sandstorm,13,1  
+Chaos,Sandstorm,13,1  
+Destruction,Sandstorm,13,1  
+Fear,Sandstorm,13,1  
+Shelter,Sandstorm,13,0  
+Barrier,Sandstorm,13,0  
+Preparation,Sandstorm,13,0  
+Calm,Sandstorm,13,0  
+Time,Sandstorm,13,0
+Light,Laser,14,1  
+Precision,Laser,14,1  
+Cutting,Laser,14,1  
+Energy,Laser,14,1  
+Technology,Laser,14,1  
+Mirror,Laser,14,0  
+Diffraction,Laser,14,0  
+Absorption,Laser,14,0  
+Distance,Laser,14,0  
+Scattering,Laser,14,0
+Rock,Magma,14,1  
+Volcano,Magma,14,1  
+Heat,Magma,14,1  
+Pressure,Magma,14,1  
+Destruction,Magma,14,1  
+Water,Magma,14,0  
+Cooling,Magma,14,0  
+Time,Magma,14,0  
+Crust,Magma,14,0  
+Solidification,Magma,14,0
+War,Peace,14,1  
+Harmony,Peace,14,1  
+Tranquility,Peace,14,1  
+Unity,Peace,14,1  
+Hope,Peace,14,1  
+Conflict,Peace,14,0  
+Chaos,Peace,14,0  
+Violence,Peace,14,0  
+Discord,Peace,14,0  
+Oppression,Peace,14,0
+Pressure,Explosion,15,1  
+Destruction,Explosion,15,1  
+Energy,Explosion,15,1  
+Force,Explosion,15,1  
+Chaos,Explosion,15,1  
+Containment,Explosion,15,0  
+Vacuum,Explosion,15,0  
+Dampening,Explosion,15,0  
+Control,Explosion,15,0  
+Time,Explosion,15,0
+Peace,War,15,1  
+Destruction,War,15,1  
+Conflict,War,15,1  
+Fear,War,15,1  
+Power,War,15,1  
+Diplomacy,War,15,0  
+Treaty,War,15,0  
+Humanity,War,15,0  
+Time,War,15,0  
+Remembrance,War,15,0
+Ignorance,Enlightenment,15,1  
+Wisdom,Enlightenment,15,1  
+Knowledge,Enlightenment,15,1  
+Truth,Enlightenment,15,1  
+Clarity,Enlightenment,15,1  
+Delusion,Enlightenment,15,0  
+Dogma,Enlightenment,15,0  
+Chaos,Enlightenment,15,0  
+Time,Enlightenment,15,0  
+Suffering,Enlightenment,15,0
+City,Nuclear Bomb,16,1  
+Destruction,Nuclear Bomb,16,1  
+Fear,Nuclear Bomb,16,1  
+War,Nuclear Bomb,16,1  
+Power,Nuclear Bomb,16,1  
+Treaty,Nuclear Bomb,16,0  
+Disarmament,Nuclear Bomb,16,0  
+Control,Nuclear Bomb,16,0  
+Time,Nuclear Bomb,16,0  
+Humanity,Nuclear Bomb,16,0 
+Land,Volcano,16,1  
+Destruction,Volcano,16,1  
+Magma,Volcano,16,1  
+Fear,Volcano,16,1  
+Pressure,Volcano,16,1  
+Water,Volcano,16,0  
+Time,Volcano,16,0  
+Cooling,Volcano,16,0  
+Prediction,Volcano,16,0  
+Dormancy,Volcano,16,0
+Ocean,Whale,17,1  
+Size,Whale,17,1  
+Strength,Whale,17,1  
+Mystery,Whale,17,1  
+Life,Whale,17,1  
+Hunting,Whale,17,0  
+Extinction,Whale,17,0  
+Pollution,Whale,17,0  
+Time,Whale,17,0  
+Captivity,Whale,17,0
+Life,Earth,17,1  
+Gravity,Earth,17,1  
+Home,Earth,17,1  
+Nature,Earth,17,1  
+Foundation,Earth,17,1  
+Asteroid,Earth,17,0  
+Time,Earth,17,0  
+Pollution,Earth,17,0  
+Neglect,Earth,17,0  
+Entropy,Earth,17,0
+Tide,Moon,17,1  
+Night,Moon,17,1  
+Gravity,Moon,17,1  
+Mystery,Moon,17,1  
+Light,Moon,17,1  
+Sun,Moon,17,0  
+Time,Moon,17,0  
+Eclipse,Moon,17,0  
+Distance,Moon,17,0  
+Darkness,Moon,17,0
+Light,Star,18,1  
+Energy,Star,18,1  
+Galaxy,Star,18,1  
+Hope,Star,18,1  
+Navigation,Star,18,1  
+Black hole,Star,18,0  
+Time,Star,18,0  
+Supernova,Star,18,0  
+Distance,Star,18,0  
+Extinction,Star,18,0
+Wave,Tsunami,18,1  
+Destruction,Tsunami,18,1  
+Ocean,Tsunami,18,1  
+Fear,Tsunami,18,1  
+Force,Tsunami,18,1  
+Warning,Tsunami,18,0  
+Preparation,Tsunami,18,0  
+Land,Tsunami,18,0  
+Time,Tsunami,18,0  
+Barrier,Tsunami,18,0
+Star,Supernova,19,1  
+Explosion,Supernova,19,1  
+Energy,Supernova,19,1  
+Light,Supernova,19,1  
+Destruction,Supernova,19,1  
+Black hole,Supernova,19,0  
+Time,Supernova,19,0  
+Distance,Supernova,19,0  
+Gravity,Supernova,19,0  
+Entropy,Supernova,19,0
+Matter,Antimatter,19,1  
+Energy,Antimatter,19,1  
+Annihilation,Antimatter,19,1  
+Science,Antimatter,19,1  
+Destruction,Antimatter,19,1  
+Containment,Antimatter,19,0  
+Stability,Antimatter,19,0  
+Time,Antimatter,19,0  
+Distance,Antimatter,19,0  
+Physics,Antimatter,19,0
+Disease,Plague,20,1  
+Death,Plague,20,1  
+Fear,Plague,20,1  
+Pandemic,Plague,20,1  
+Suffering,Plague,20,1  
+Cure,Plague,20,0  
+Medicine,Plague,20,0  
+Immunity,Plague,20,0  
+Hygiene,Plague,20,0  
+Time,Plague,20,0
+Death,Rebirth,20,1  
+Renewal,Rebirth,20,1  
+Cycle,Rebirth,20,1  
+Hope,Rebirth,20,1  
+Transformation,Rebirth,20,1  
+Stagnation,Rebirth,20,0  
+Time,Rebirth,20,0  
+Entropy,Rebirth,20,0  
+Extinction,Rebirth,20,0  
+Forgetting,Rebirth,20,0
+Earthquake,Tectonic Shift,21,1  
+Land,Tectonic Shift,21,1  
+Mountain,Tectonic Shift,21,1  
+Force,Tectonic Shift,21,1  
+Time,Tectonic Shift,21,1  
+Stability,Tectonic Shift,21,0  
+Prediction,Tectonic Shift,21,0  
+Control,Tectonic Shift,21,0  
+Humanity,Tectonic Shift,21,0  
+Entropy,Tectonic Shift,21,0
+Star,Gamma-Ray Burst,22,1  
+Energy,Gamma-Ray Burst,22,1  
+Destruction,Gamma-Ray Burst,22,1  
+Fear,Gamma-Ray Burst,22,1  
+Distance,Gamma-Ray Burst,22,1  
+Time,Gamma-Ray Burst,22,0  
+Shielding,Gamma-Ray Burst,22,0  
+Prediction,Gamma-Ray Burst,22,0  
+Humanity,Gamma-Ray Burst,22,0  
+Entropy,Gamma-Ray Burst,22,0
+Adversity,Human Spirit,23,1  
+Hope,Human Spirit,23,1  
+Resilience,Human Spirit,23,1  
+Courage,Human Spirit,23,1  
+Will,Human Spirit,23,1  
+Despair,Human Spirit,23,0  
+Time,Human Spirit,23,0  
+Oppression,Human Spirit,23,0  
+Suffering,Human Spirit,23,0  
+Entropy,Human Spirit,23,0
+Extinction,Apocalyptic Meteor,24,1  
+Destruction,Apocalyptic Meteor,24,1  
+Fear,Apocalyptic Meteor,24,1  
+Impact,Apocalyptic Meteor,24,1  
+Force,Apocalyptic Meteor,24,1  
+Deflection,Apocalyptic Meteor,24,0  
+Time,Apocalyptic Meteor,24,0  
+Humanity,Apocalyptic Meteor,24,0  
+Preparation,Apocalyptic Meteor,24,0  
+Entropy,Apocalyptic Meteor,24,0
+Magnetism,Earth's Core,25,1  
+Heat,Earth's Core,25,1  
+Pressure,Earth's Core,25,1  
+Energy,Earth's Core,25,1  
+Foundation,Earth's Core,25,1  
+Cooling,Earth's Core,25,0  
+Time,Earth's Core,25,0  
+Humanity,Earth's Core,25,0  
+Technology,Earth's Core,25,0  
+Entropy,Earth's Core,25,0
+Gravity,Neutron Star,26,1  
+Density,Neutron Star,26,1  
+Star,Neutron Star,26,1  
+Energy,Neutron Star,26,1  
+Force,Neutron Star,26,1  
+Black hole,Neutron Star,26,0  
+Time,Neutron Star,26,0  
+Distance,Neutron Star,26,0  
+Humanity,Neutron Star,26,0  
+Entropy,Neutron Star,26,0  

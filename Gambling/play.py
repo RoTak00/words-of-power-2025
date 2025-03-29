@@ -50,17 +50,7 @@ words = [
     "Firefly", "Vortex", "Prism", "Lantern", "Planet", "Serpent", "Cave", "Helmet", "Robot", "Galaxy",
     "Meteor", "Storm", "Mountain", "River", "Temple", "Forest", "Dragon", "Castle", "Knight", "Spear",
     "Ghost", "Phoenix", "Beacon", "Canyon", "Sand", "Smoke", "Fog", "Torch", "Crystal", "Bell",
-    "Spaceship", "Starship", "Blaster", "Teleport", "Clone", "Cybernetic", "Nanobot", "Neural Net",
-    "AI", "Drone", "Hologram", "Android", "Singularity", "Quantum Core", "Fusion Reactor", "Wormhole",
-    "Dark Matter", "Event Horizon", "Void", "Nebula", "Plasma", "Laser", "Cryostasis", "Mech", "Orbital",
-    "Antigrav", "Starbase", "Space Station", "Exosuit", "Warp Drive", "Gravity Well", "Moonbase",
-    "Time Rift", "Alien", "Mutant", "Probe", "Synthetics", "Hyperdrive", "Power Core", "Command Deck",
-    "Control Panel", "Energy Cell", "Neutrino", "Asteroid", "Colony", "Terraformer",
-    "Chimera", "Golem", "Witch", "Wizard", "Rune", "Scroll", "Spell", "Cauldron", "Portal", "Griffin",
-    "Pegasus", "Hydra", "Titan", "Oracle", "Seer", "Throne", "Obelisk", "Sanctum", "Relic", "Amulet",
-    "Wand", "Staff", "Elixir", "Talisman", "Fountain", "Shrine", "Celestial", "Constellation",
-    "Starlight", "Astral Gate", "Eclipse", "Solar Flare", "Lighthouse", "Chronosphere", "Soulstone",
-    "Dreamscape", "Eternium", "Void Crystal", "Mana Core", "Time Crystal", "Mind Gate", "Cosmic Seed"
+    "Spaceship", "Starship", "Blaster", "Teleport", "Clone", "Cybernetic", "Nanobot", "Neural Net"
 ]
 
 words = random.sample(words, 5)

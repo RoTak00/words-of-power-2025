@@ -1,0 +1,166 @@
+word,response,cost,win
+Candle,War,15,1
+Candle,Plague,20,1
+Candle,Stone,11,1
+Hammer,Human Spirit,23,1
+Hammer,Thunder,12,1
+Hammer,Antimatter,19,1
+Lion,Supernova,19,1
+Lion,Stone,11,0
+Lion,Sandstorm,13,1
+Flood,Paper,2,0
+Flood,Rope,5,0
+Flood,Vaccine,9,0
+Tank,Earth,17,1
+Tank,Coal,1,0
+Tank,Magma,14,1
+Pandemic,Gun,5,0
+Pandemic,Bacteria,6,0
+Pandemic,Explosion,15,0
+Mirror,Coal,1,0
+Mirror,Whale,17,1
+Mirror,Enlightenment,15,1
+Compass,Light,7,0
+Compass,Supermassive Black Hole,35,1
+Compass,Enlightenment,15,1
+Crown,War,15,1
+Crown,Ice,13,1
+Crown,Gamma-Ray Burst,22,1
+Comet,Nuclear Bomb,16,1
+Comet,Peace,14,0
+Comet,Tsunami,18,0
+Lantern,Supernova,19,1
+Lantern,Shadow,7,0
+Lantern,Gun,5,1
+Bridge,Sound,8,0
+Bridge,Coal,1,0
+Bridge,Gamma-Ray Burst,22,1
+Clock,Bacteria,6,0
+Clock,Vaccine,9,0
+Clock,Moon,17,1
+Helmet,Human Spirit,23,
+Helmet,Supernova,19,
+Helmet,Explosion,15,
+Statue,Entropy,45,
+Statue,Twig,3,
+Statue,Rebirth,20,
+Jungle,Sandstorm,13,
+Jungle,Twig,3,
+Jungle,Karma,12,
+Thunderstorm,Virus,7,
+Thunderstorm,Sound,8,
+Thunderstorm,Sword,4,
+Machine,Sandstorm,13,
+Machine,Magma,14,
+Machine,Logic,10,
+Book,Storm,9,
+Book,Karma,12,
+Book,Sandstorm,13,
+Ash,Shadow,7,
+Ash,Virus,7,
+Ash,Wind,13,
+Firefly,Earth,17,
+Firefly,Whale,17,
+Firefly,Wind,13,
+Vortex,Light,7,
+Vortex,Gamma-Ray Burst,22,
+Vortex,Antimatter,19,
+Prism,Virus,7,
+Prism,Cure,6,
+Prism,Ice,13,
+Lantern,Paper,2,
+Lantern,Laser,14,
+Lantern,Gun,5,
+Planet,Volcano,16,
+Planet,Sword,4,
+Planet,Leaf,2,
+Serpent,Storm,9,
+Serpent,Entropy,45,
+Serpent,Ice,13,
+Cave,Stone,11,
+Cave,Volcano,16,
+Cave,Star,18,
+Helmet,Sound,8,
+Helmet,Neutron Star,26,
+Helmet,Entropy,45,
+Robot,Rock,2,
+Robot,Disease,6,
+Robot,Nuclear Bomb,16,
+Galaxy,Karma,12,
+Galaxy,Water,3,
+Galaxy,Tectonic Shift,21,
+Meteor,War,15,
+Meteor,Star,18,
+Meteor,Entropy,45,
+Storm,Volcano,16,
+Storm,Twig,3,
+Storm,Storm,9,
+Mountain,Neutron Star,26,
+Mountain,Laser,14,
+Mountain,Sound,8,
+River,Twig,3,
+River,Neutron Star,26,
+River,Antimatter,19,
+Temple,Water,3,
+Temple,Magma,14,
+Temple,Vaccine,9,
+Forest,Sound,8,
+Forest,Earthquake,9,
+Forest,Supermassive Black Hole,35,
+Dragon,Tsunami,18,
+Dragon,Nuclear Bomb,16,
+Dragon,Time,8,
+Castle,Earthquake,9,
+Castle,Stone,11,
+Castle,Disease,6,
+Knight,Flame,5,
+Knight,Virus,7,
+Knight,Supermassive Black Hole,35,
+Spear,Virus,7,
+Spear,Supermassive Black Hole,35,
+Spear,Pebble,1,
+Ghost,Antimatter,19,
+Ghost,Moon,17,
+Ghost,Storm,9,
+Phoenix,Gravity,10,
+Phoenix,Cure,6,
+Phoenix,War,15,
+Beacon,Laser,14,
+Beacon,Gravity,10,
+Beacon,Tectonic Shift,21,
+Canyon,Laser,14,
+Canyon,Stone,11,
+Canyon,Entropy,45,
+Sand,Star,18,
+Sand,Robots,10,
+Sand,Ice,13,
+Smoke,Coal,1,
+Smoke,Water,3,
+Smoke,Sound,8,
+Fog,Leaf,2,
+Fog,Explosion,15,
+Fog,Wind,13,
+Torch,Wind,13,
+Torch,Plague,20,
+Torch,Leaf,2,
+Crystal,Pebble,1,
+Crystal,Leaf,2,
+Crystal,Entropy,45,
+Bell,Neutron Star,26,
+Bell,Whale,17,
+Bell,Coal,1,
+Cup,Laser,14,
+Cup,Gamma-Ray Burst,22,
+Cup,Supernova,19,
+Chalk,Plague,20,
+Chalk,Apocalyptic Meteor,24,
+Chalk,Entropy,45,
+Dust,Thunder,12,
+Dust,Peace,14,
+Dust,Robots,10,
+Broom,Tsunami,18,
+Broom,Apocalyptic Meteor,24,
+Broom,Supernova,19,
+Glove,Earthquake,9,
+Glove,Flame,5,
+Glove,Fate,8,
