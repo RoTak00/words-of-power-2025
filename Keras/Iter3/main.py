@@ -15,7 +15,7 @@ with open('words.json', 'r', encoding='utf-8') as f:
 print(labeled_words)
 
 # Load CSV
-df = pd.read_csv("../word_mappings4.csv")
+df = pd.read_csv("../word_mappings5.csv")
 df = df.dropna(subset=['win'])  # removes rows where 'win' is NaN
 df = df[~df["response"].isin(["Entropy", "Supermassive Black Hole"])]
 
@@ -46,7 +46,6 @@ sample_weights = 1 / df["true_cost"].values
 model = Sequential([
     Input(shape=(300,)),
     Dense(128, activation="relu"),
-    Dense(64, activation="relu"),
     Dense(len(label_encoder.classes_), activation="softmax")
 ])
 
@@ -81,7 +80,7 @@ def predict_response(input_word, labeled_words, model):
 
 # Example
 
-model.save("my_model.keras")  # Saves the full model (architecture + weights + optimizer)
+model.save("my_model2.keras")  # Saves the full model (architecture + weights + optimizer)
 
 while(True):
 
@@ -93,7 +92,7 @@ while(True):
         continue
     
     success = input("Was the response correct? (1/0): ")
-    with open('../word_mappings4.csv', mode="a", newline="") as f:
+    with open('../word_mappings5.csv', mode="a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([word, response['text'], response['cost'], success])
 
